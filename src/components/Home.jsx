@@ -1,10 +1,10 @@
 import React from 'react'
 
- function Home() {
+ function Home({ username, favoritePlant}) {
   return (
     <div>
-        <h2>Welcome to Mel Garden</h2>
-        <p>This is a space where you grow your react skills, one plant at a time.</p>
+        <h2>Welcome, {username} </h2>
+        <p>We heard your favorite plant is {favoritePlant}! </p>
     </div>
   )
 }
