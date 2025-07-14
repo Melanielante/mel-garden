@@ -16,7 +16,7 @@ function App() {
        <div className='App'>
           <h1>Hello from Mel Garden </h1>
           <Home username="MEL" favoritePlant="Aloe" />
-          <PlantList plants={[]} />
+          <PlantList plants={plantData} />
        </div>
       
     </>
